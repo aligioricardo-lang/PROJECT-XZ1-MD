@@ -1,223 +1,137 @@
-⚡ ZYRON-MD & ZYRON-AI ❤️‍🔥
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=00008b&center=falso&vCenter=falso&lines=🜛+Project-Xz1/+🜛;۞+OFC+UPDATE+۞;@AlgyDev">      
 
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=35&duration=2500&color=FF3131&center=true&vCenter=true&lines=⚡+ZYRON-MD+%26+ZYRON-AI+⚡;🤖+MULTI-FUNCTION+WHATSAPP+BOT;🚀+RPG+•+IA+•+DOWNLOADS;👑+GZEE+SCRIPTS+DEV"><br><img src="dono/menus/Foto-menu/img-menu.jpg" width="100%"/><br><br>
+<h1 align="center">
+<p>
+<img src= "https://xatimg.com/image/Vz3bHwGAeFXl.jpg" alt="ProjectXz1" width="1080">
+</p>
 
-<img src="https://img.shields.io/badge/STATUS-ONLINE-ff3131?style=for-the-badge&logo=whatsapp&logoColor=black">
-<img src="https://img.shields.io/badge/VERSION-V1.0-ff3131?style=for-the-badge&logo=github&logoColor=black">
-<img src="https://img.shields.io/badge/NODE.JS-28+-ff3131?style=for-the-badge&logo=node.js&logoColor=black">
-<img src="https://img.shields.io/badge/PLATFORM-TERMUX-ff3131?style=for-the-badge&logo=android&logoColor=black"></div>---
+<p align="center">
+<a href="#"><img title="BOT-MULTI-DEVICE" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
+</p>
 
-❤️‍🔥 SOBRE O PROJETO
-
-O Zyron-MD & Zyron-AI é uma automação completa para WhatsApp desenvolvida pela equipe Gzee Scripts Dev.
-
-O projeto reúne:
-
-- 🤖 Inteligência Artificial
-- 🎮 Sistema RPG Completo
-- 🏦 Banco e Economia
-- 🐾 Sistema de Pets
-- 🎣 Pesca
-- ⛏️ Mineração
-- 🏹 Caça
-- 🚢 Batalha Naval
-- 🛒 Loja
-- 🏦 Leilões
-- 📥 Downloaders
-- 🛡️ Moderação
-- 🎨 Menus Interativos
-
-Tudo isso em um único bot.
+<p align="center">
+<img title="Autor" src="https://img.shields.io/badge/Autor-@Algy Dev_-purple.svg?style=for-the-badge&logo=github"></a>
+<img title="Versão" src="https://img.shields.io/badge/Versão-𝟒.9.0-orange.svg?style=for-the-badge&logo=github"></a>
+</p>
 
 ---
 
-🚀 INSTALAÇÃO
+## 🚀 INSTALAÇÃO E START (RÁPIDO)
 
-📦 Atualizar Pacotes
+Siga os passos abaixo para instalar e ligar o bot no Termux:
 
-apt update -y
-apt upgrade -y
-pkg update -y
-pkg upgrade -y
+### 1. Instalar Pacotes Necessários
+```bash
+apt-get update -y && pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install tesseract -y && pkg install git -y
+```
+*Atenção: Digite `y` sempre que for solicitado.*
 
-📥 Instalar Dependências
-
-pkg install nodejs -y
-pkg install nodejs-lts -y
-pkg install ffmpeg -y
-pkg install git -y
-pkg install wget -y
-pkg install tesseract -y
-
-📁 Permitir Storage
-
+### 2. Configurar Armazenamento
+```bash
 termux-setup-storage
+```
 
-📂 Clonar Projeto
+### 3. Baixar o Bot (Clone)
+```bash
+cd /sdcard/Download && git clone https://github.com/aligioricardo-lang/ProjectXz1.git && cd /sdcard/Download/ProjectXz1
+```
 
-git clone https://github.com/GZEE-SCRIPTS-DEV/ZYRON-MD-ZYRON-AI
-
-📦 Instalar Módulos
-
+### 4. Instalar Dependências
+```bash
 npm install --force --no-bin-links
+```
 
-▶️ Iniciar Bot
-
+### 5. Ligar o Bot
+```bash
 npm start
+```
 
 ---
 
-⚙️ CONFIGURAÇÃO
+# 📖 INFORMAÇÕES DETALHADAS
 
-Abra o arquivo de configuração e edite:
+Abaixo você encontra tudo sobre como o bot funciona, como configurar e personalizar.
 
+## 1. Visão Geral do Bot
+
+O TED-BOT 4.9 é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@whiskeysockets/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
+
+### 1.1. Como Funciona
+1.  **Inicialização (`temux.js`)**: Garante que o bot ligue corretamente e converte as bibliotecas necessárias.
+2.  **Conexão (`connect.js`)**: Gerencia o login no WhatsApp e a reconexão automática.
+3.  **Comandos (`index.js`)**: Processa todas as mensagens e executa as funções do bot.
+
+## 2. Configuração e Personalização
+
+Para mudar o nome do bot, o prefixo ou o dono, edite o arquivo `settings/config.json`:
+
+```json
 {
-  "NumberDono": "5519995729970",
-  "prefix": "$",
-  "NickDono": "GzeeScriptsDev",
-  "NomeBot": "Zyron-MD",
-  "NomeIA": "Zyron-AI"
+  "prefix": "#",
+  "NomeDoBot": "Project Xz1",
+  "NickDono": "Algy Dev",
+  "numerodono": "5517982035824",
+  "API_KEY_TED": "tedzinho"
 }
+```
 
-Campos
+-   **`prefix`**: O símbolo para usar comandos (ex: `#`).
+-   **`NomeDoBot`**: O nome que o bot terá.
+-   **`NickDono`**: Seu nome/apelido.
+-   **`numerodono`**: **Seu número de WhatsApp** (DDI+DDD+Número) para ter acesso aos comandos de dono.
 
-Campo| Função
-NumberDono| Número do proprietário
-prefix| Prefixo dos comandos
-NickDono| Nome do dono
-NomeBot| Nome do bot
-NomeIA| Nome da IA
+## 3. Como Dar Dono ao Bot
+Basta colocar o seu número no campo `numerodono` dentro do `config.json`. Assim, você poderá usar o comando `#menudono`.
 
----
+## 4. Conexão e QR Code
+Ao ligar o bot pela primeira vez:
+1.  Digite seu número no terminal quando solicitado (ex: `5517982035824`).
+2.  O bot vai gerar um **Código de 8 dígitos**.
+3.  No seu WhatsApp, vá em `Aparelhos Conectados > Conectar com código` e digite o código que apareceu no terminal.
 
-🔗 CONECTANDO
+## 5. Menus de Comandos
+-   **`#menu`**: Menu principal com todas as categorias.
+-   **`#menuadm`**: Comandos para administradores de grupo.
+-   **`#menudono`**: Comandos exclusivos para quem é dono do bot.
+-   **`#brincadeiras`**: Rankings e ações divertidas entre membros.
+-   **`#menulogos`**: Criação de logos personalizadas.
 
-Método Pairing Code
+## 🌐 Hospedagem e Suporte
 
-1. Inicie o bot
-2. Digite seu número
-3. Receba o código
-4. Abra WhatsApp
-5. Aparelhos Conectados
-6. Conectar com código
-7. Digite o código
+<div align="center">
 
----
+### 💎 Project Share
 
-🧠 SISTEMAS
+| Plataforma | Link |
+|---|---|
+| 👥 Grupo | [Grupo WhatsApp](https://chat.whatsapp.com/LthgoMAPNn10LTGofKKO6B?mode=gi_t) |
 
-❤️‍🔥 Zyron AI
-
-- Conversa sem prefixo
-- IA personalizada
-- Memória própria
-- Respostas inteligentes
-- Modelos OpenRouter
-- Groq API
+</div>
 
 ---
 
-🎮 Sistema RPG
+---
 
-- 🏦 Banco
-- 💰 Economia
-- 📈 XP
-- 🏅 Níveis
-- 🐾 Pets
-- 🎣 Pesca
-- ⛏️ Mineração
-- 🏹 Caça
-- 🚢 Batalha Naval
-- 🎰 Cassino
-- 🏦 Leilão
-- 🛒 Loja
+## 📢 Aviso
+
+Este projeto é destinado para fins de estudo, automação e uso pessoal. Use com responsabilidade e respeite as regras do WhatsApp e dos grupos onde o bot for utilizado.
 
 ---
 
-📥 Downloaders
+<div align="center">
 
-- YouTube
-- TikTok
-- Instagram
-- Spotify
-- MediaFire
-- Pinterest
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3500&pause=700&color=0066FF&center=true&vCenter=true&width=850&lines=%E2%95%B0%E2%80%A2%E2%98%85+Project Xz1+%E2%98%85%E2%80%A2%E2%95%AF;%F0%9F%9A%80+Obrigado+por+usar+o+projeto;%F0%9F%91%91+Criado+por+%40Algy+Dev" alt="Footer Typing SVG" />
 
----
+<br>
 
-🛡️ Moderação
+### 👑 Autor
 
-- Antilink
-- Antilink Hard
-- Boas-vindas
-- Sistema ADM
-- Sistema Dono
-- 
----
+**@Algy Dev**
 
-📊 RECURSOS
+<br>
 
-✅ IA Integrada
+<img src="https://img.shields.io/badge/Status-Online-00C853?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<img src="https://img.shields.io/badge/Feito%20com-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Projeto-Project--Xz1-0066FF?style=for-the-badge&logo=github&logoColor=white" />
 
-✅ Sistema RPG
-
-✅ Banco
-
-✅ Loja
-
-✅ Leilão
-
-✅ Pets
-
-✅ Pesca
-
-✅ Mineração
-
-✅ Caça
-
-✅ Cassino
-
-✅ Batalha Naval
-
-✅ Downloaders
-
-✅ Menus Interativos
-
-✅ Sistema Premium
-
----
-
-⚠️ AVISO
-
-Este projeto é destinado para estudos e automação.
-Este projeto contém uma segurança de criptografia de Copyright, em caso de você mexer de forma que tirei a autorização do dono o bot pode ser totalmente desativado para sua plataforma.
-O uso incorreto pode resultar em punições da plataforma WhatsApp.
-Caso encontre um erro, mande mensagem diretamente para o +55 19 99538-2963
-
-A equipe Zyron não se responsabiliza por:
-
-- Banimentos
-- Mau uso
-- Spam
-- Violações dos Termos
-Use com responsabilidade.
-
----
-
-👑 DESENVOLVEDORES
-
-<div align="center">👑 GZEE SCRIPTS DEV
-
-Desenvolvedor Principal
-
-<br><img src="https://img.shields.io/badge/GZEE-ff3131?style=for-the-badge&logo=github&logoColor=black"></div>---
-
-🌐 COMUNIDADE
-
-Canal Oficial
-
-https://chat.whatsapp.com/LqX13WIT2GOLXaSNY90Y4m?s=cl&p=a&mlu=3
-
----
-
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=25&duration=2500&color=FFD700&center=true&vCenter=true&lines=❤️‍🔥+OBRIGADO+POR+USAR;⚡+ZYRON-MD+%26+ZYRON-AI;🚀+SEMPRE+EM+EVOLUÇÃO"></div>
+</div>
