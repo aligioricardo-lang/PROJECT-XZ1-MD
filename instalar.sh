@@ -2,7 +2,7 @@
 
 clear
 echo -e "\033[35m========================================\033[0m"
-echo -e "\033[36m   ZYRON-MD & ZYRON-AI — INSTALADOR\033[0m"
+echo -e "\033[36m   PROJECT XZ1-MD — INSTALADOR\033[0m"
 echo -e "\033[35m========================================\033[0m"
 sleep 1
 
