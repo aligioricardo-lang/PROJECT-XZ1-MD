@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-<img title="Autor" src="https://img.shields.io/badge/Autor-@Algy Dev_-purple.svg?style=for-the-badge&logo=github"></a>
+<img title="Autor" src="https://img.shields.io/badge/Autor-@Algy Dev_-purple neon.svg?style=for-the-badge&logo=github"></a>
 <img title="Versão" src="https://img.shields.io/badge/Versão-𝟒.9.0-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 
@@ -33,7 +33,7 @@ termux-setup-storage
 
 ### 3. Baixar o Bot (Clone)
 ```bash
-cd /sdcard/Download && git clone https://github.com/aligioricardo-lang/ProjectXz1.git && cd /sdcard/Download/ProjectXz1
+cd /sdcard/Download && git clone https://github.com/aligioricardo-lang/PROJECT-XZ1-MD.git && cd /sdcard/Download/PROJECT-XZ1-MD
 ```
 
 ### 4. Instalar Dependências
@@ -67,11 +67,10 @@ Para mudar o nome do bot, o prefixo ou o dono, edite o arquivo `settings/config.
 
 ```json
 {
-  "prefix": "#",
+  "prefix": "$",
   "NomeDoBot": "Project Xz1",
   "NickDono": "Algy Dev",
   "numerodono": "5517982035824",
-  "API_KEY_TED": "tedzinho"
 }
 ```
 
