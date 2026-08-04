@@ -13,8 +13,8 @@ return `╔═━───────━━▒۞▒━━───────�
 ┃ 🌌⚙️ ⟡ 𝐌𝐄𝐍𝐔 𝐏𝐑𝐈𝐍𝐂𝐈𝐏𝐀𝐋 ⟡ ⚙️🌌
 ├${linha}
 ┃ 👤 Usuário: ${userTag(sender)}
-┃ 🤖 Bot: ${NomeBot || 'Zyron-AI'}
-┃ 👑 Dono: ${NickDono || 'GzeeScriptsDev'}
+┃ 🤖 Bot: ${NomeBot || 'PROJECT XZ1 MD'}
+┃ 👑 Dono: ${NickDono || 'Algy Dev'}
 ┃ 📅 Data: ${data || '--/--/----'}
 ┃ ⏰ Hora: ${hora || '--:--'}
 ┃ 🧬 Versão: ${version || '1.0'}
