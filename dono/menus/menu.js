@@ -6,7 +6,7 @@ const userTag = (sender) => `@${sender?.split('@')[0] || 'user'}`;
 
 const rodape = () => `
 ╚═━───────━━▒۞▒━━───────━═╝
-🌌❤️‍🔥 ⟡ 𝒁𝒚𝒓𝒐𝒏-𝑨𝑰 ⟡ ❤️‍🔥🌌`;
+🌌❤️‍🔥 ⟡ PROJECT XZ1 MD ⟡ ❤️‍🔥🌌`;
 
 const menu = (prefix, sender, NickDono, NomeBot, data, hora, NumberDono, version) => {
 return `╔═━───────━━▒۞▒━━───────━═╗
