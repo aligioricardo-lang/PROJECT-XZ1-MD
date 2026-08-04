@@ -28,7 +28,7 @@ ${RESET}
 echo -e "${CYAN}╔══════════════════════════════════════╗${RESET}"
 echo -e "${CYAN}║        🤖 ZYRON-MD & ZYRON-AI        ║${RESET}"
 echo -e "${CYAN}║      Sistema sendo inicializado      ║${RESET}"
-echo -e "${CYAN}║      ❤️‍🔥 GzeeScriptsDev </> ❤️‍🔥      ║${RESET}"
+echo -e "${CYAN}║      ❤️‍🔥 AlgyDev </> ❤️‍🔥      ║${RESET}"
 echo -e "${CYAN}╚══════════════════════════════════════╝${RESET}"
 echo ""
 
