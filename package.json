@@ -1,7 +1,7 @@
 {
   "name": "Zyron-AI",
   "version": "1.0",
-  "description": "Bot WhatsApp criado por GzeeScriptsDev",
+  "description": "Bot WhatsApp criado por Algy dev",
   "main": "connect.js",
   "scripts": {
     "start": "node connect.js"
@@ -11,7 +11,7 @@
     "baileys",
     "bot"
   ],
-  "author": "Gzee",
+  "author": "Algy",
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
