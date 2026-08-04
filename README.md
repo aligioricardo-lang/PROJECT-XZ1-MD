@@ -50,11 +50,11 @@ npm start
 
 # 📖 INFORMAÇÕES DETALHADAS
 
-Abaixo você encontra tudo sobre como o bot funciona, como configurar e personalizar.
+Abaixo você encontra tudo sobre como o bot funciona, como configurar e personalizar
 
 ## 1. Visão Geral do Bot
 
-O TED-BOT 4.9 é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@whiskeysockets/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
+O PROJECT-XZ1-MD é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@whiskeysockets/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
 
 ### 1.1. Como Funciona
 1.  **Inicialização (`temux.js`)**: Garante que o bot ligue corretamente e converte as bibliotecas necessárias.
